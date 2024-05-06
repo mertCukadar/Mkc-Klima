@@ -7,7 +7,7 @@ export function Carousel() {
     const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
-    <div className="embla rounded-lg" ref={emblaRef}>
+    <div className="embla rounded-sm shadow-2xl shadow-slate-500" ref={emblaRef}>
       <div className="embla__container">
         <Image src="/pano.jpeg" alt="pano" width={500} height={200} className='embla__slide' layout="responsive" />
         <Image src="/chiller.jpeg" alt="chiller" width={500} height={200} className='embla__slide' layout="responsive" />
