@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         navigationBg: "rgba(18,118,188,255)",
+        bgcol:"rgb(38,115,179)"
       },
 
       backgroundImage: {

@@ -4,8 +4,13 @@
 
 /* set background default color tailwind bg-cyan-950 */
 body {
-  background-color: rgb(8 51 68);
+  /* background-color: rgb(8 51 68); */
+  background-color: white;
   color: white
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .embla {

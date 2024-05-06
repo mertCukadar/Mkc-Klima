@@ -2,10 +2,10 @@ import React from "react";
 
 export function Request(){
     return(
-        <div className="sm:w-[38rem] mx-auto my-10 overflow-hidden rounded-2xl bg-white shadow-lg sm:max-w-lg">
+        <div className="sm:w-[38rem] mx-auto my-10 overflow-hidden rounded-2xl bg-white shadow-xl sm:max-w-lg">
         <div className="bg-cyan-800 px-10 py-10 text-center text-white">
           <p className="font-serif text-2xl font-semibold tracking-wider">Bize Ulaşın</p>
-          <p className="text-center text-blue-100">Kısace talebinizi iletiniz size en kısa sürede dönüş yapacağız</p>
+          <p className="text-center text-blue-100">Kısaca talebinizi iletiniz size en kısa sürede dönüş yapacağız</p>
         </div>
       
         <div className="space-y-4 px-8 py-10">
