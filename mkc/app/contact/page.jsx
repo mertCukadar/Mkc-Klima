@@ -7,8 +7,11 @@ import { MapList } from "../components/map-list";
 
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
+export const pageTransitionDelay = 1000; // 1000 milisaniye (1 saniye) gecikme
 
 export default function SimpleMap(){
+  
+
   const defaultProps = {
     center: {
       lat: 10.99835602,
